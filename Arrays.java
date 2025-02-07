@@ -161,4 +161,8 @@ public class Arrays{
         int nums[] = {2,4,6,8,10};
         printSubArrays(nums);
     }
+    public static void sort(int[] arr) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'sort'");
+    }
 }
