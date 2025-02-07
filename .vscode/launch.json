@@ -1,0 +1,300 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrayLists",
+            "request": "launch",
+            "mainClass": "ArrayLists",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Arrays2",
+            "request": "launch",
+            "mainClass": "Arrays2",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Backtracking",
+            "request": "launch",
+            "mainClass": "Backtracking",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Bits",
+            "request": "launch",
+            "mainClass": "Bits",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Conditions",
+            "request": "launch",
+            "mainClass": "Conditions",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Conditions2",
+            "request": "launch",
+            "mainClass": "Conditions2",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Conditions3",
+            "request": "launch",
+            "mainClass": "Conditions3",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Exercise",
+            "request": "launch",
+            "mainClass": "Exercise",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "FirstClass",
+            "request": "launch",
+            "mainClass": "FirstClass",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Functions",
+            "request": "launch",
+            "mainClass": "Functions",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "LL",
+            "request": "launch",
+            "mainClass": "LL",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Loops",
+            "request": "launch",
+            "mainClass": "Loops",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Loops2",
+            "request": "launch",
+            "mainClass": "Loops2",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Loops3",
+            "request": "launch",
+            "mainClass": "Loops3",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Maths",
+            "request": "launch",
+            "mainClass": "Maths",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Matrices",
+            "request": "launch",
+            "mainClass": "Matrices",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "New",
+            "request": "launch",
+            "mainClass": "New",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "OOPs",
+            "request": "launch",
+            "mainClass": "OOPs",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Patterns",
+            "request": "launch",
+            "mainClass": "Patterns",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Patterns2",
+            "request": "launch",
+            "mainClass": "Patterns2",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "Practice",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Recursion1",
+            "request": "launch",
+            "mainClass": "Recursion1",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Recursion2",
+            "request": "launch",
+            "mainClass": "Recursion2",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Recursion3",
+            "request": "launch",
+            "mainClass": "Recursion3",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Solutions",
+            "request": "launch",
+            "mainClass": "Solutions",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Sorting",
+            "request": "launch",
+            "mainClass": "Sorting",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Strings",
+            "request": "launch",
+            "mainClass": "Strings",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Strings2",
+            "request": "launch",
+            "mainClass": "Strings2",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Strings3",
+            "request": "launch",
+            "mainClass": "Strings3",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "Bank",
+            "request": "launch",
+            "mainClass": "bank.Bank",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "frame",
+            "request": "launch",
+            "mainClass": "frame",
+            "projectName": "java tutorial_300eadc3"
+        },
+        {
+            "type": "java",
+            "name": "variables",
+            "request": "launch",
+            "mainClass": "variables",
+            "projectName": "java tutorial_300eadc3"
+        }
+    ]
+}
